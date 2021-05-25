@@ -81,7 +81,7 @@ class DiscordMVPTimer(MVPTimer):
                         time.astimezone(self.local_tz).strftime("%H:%M"), name
                     )
                 msg += "\n" + row
-            msg += "\n"
+            msg += "\n```"
         
         if timers[2]:
             msg += "\n:stop_sign: Will spawn:\n```"
@@ -94,7 +94,7 @@ class DiscordMVPTimer(MVPTimer):
                         time.astimezone(self.local_tz).strftime("%H:%M"), name
                     )
                 msg += "\n" + row
-            msg += "\n"
+            msg += "\n```"
         
         msg += (
             "\nLast update: "
