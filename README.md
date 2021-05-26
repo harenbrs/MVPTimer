@@ -37,26 +37,32 @@ UPDATE_PERIOD=30                 # Update period in seconds
 $ python mvptimer.py
 Spawned:
 
- 89h51m ago Mistress (mjolnir_04)
- 65h46m ago Pharaoh (in_sphinx5)
- 40h 6m ago Gopinich (mosk_dun03)
- 17h53m ago Dracula (gef_dun01)
-  0h32m ago Moonlight Flower (pay_dun04)
-  0h19m ago Osiris (moc_pryd04)
-  0h11m ago Amon Ra (moc_pryd06)
-  0h 2m ago Turtle General (tur_dun04)
+ 85h16m ago Pharaoh (in_sphinx5)
+ 59h35m ago Gopinich (mosk_dun03)
+ 37h23m ago Dracula (gef_dun01)
+ 18h37m ago Orc Lord (gef_fild10)
+ 17h 1m ago Amon Ra (moc_pryd06)
+ 16h55m ago Turtle General (tur_dun04)
+ 16h21m ago Moonlight Flower (pay_dun04)
+ 15h54m ago Tao Gunka (beach_dun)
+ 13h44m ago Osiris (moc_pryd04)
+ 13h 3m ago Samurai Specter (ama_dun03)
+ 12h47m ago Eddga (gld_dun01)
+ 12h38m ago Doppelganger (gef_dun02)
+  5h22m ago Golden Thief Bug (prt_sewb4)
+  4h19m ago Eddga (pay_fild11)
+  4h13m ago Hatii (xmas_fild01)
+
+Spawning:
+
+in <9m Orc Hero (gef_fild14)
 
 Will spawn:
 
-in  0h27m+ Hatii (xmas_fild01)
-in  0h28m+ Golden Thief Bug (prt_sewb4)
-in  0h31m+ Eddga (pay_fild11)
-in  0h34m+ Phreeoni (moc_fild17)
-in  0h42m+ Orc Lord (gef_fild10)
-in  3h25m+ Tao Gunka (beach_dun)
-in  6h32m+ Eddga (gld_dun01)
+in  1h 3m+ Phreeoni (moc_fild17)
+in 15h 0m+ Orc Hero (gef_fild02)
 
-Last update: 25 May 2021 17:35 UTC.
+Last update: 26 May 2021 13:04 UTC.
 ```
 
 ## Usage (Discord):
@@ -72,6 +78,10 @@ $ screen -ls
 There is a screen on:
 	5945.discord-mvptimer	(05/25/21 15:56:07)	(Detached)
 ```
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/1812261/119664692-80e08100-be2b-11eb-8078-50d1dca5aeca.png" width="500">
+</div>
 
 To stop:
 
