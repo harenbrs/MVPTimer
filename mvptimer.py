@@ -82,18 +82,27 @@ class MVPTimer:
             dict(server=self.server, username=self.username, password=self.password)
         )
     
-    def parse_kills(self):
+    def parse_kills(self, relogin=False):
+        if relogin:
+            self.login()
+        
         try:
             html = self.session.get(self.base_url + self.mvp_loc).content
         except:
             self.log.error("Error parsing kills:", sys.exc_info())
             return
         
-        rows = (
-            BeautifulSoup(html, 'html.parser')
-            .find('table', attrs={'class': 'horizontal-table'})
-            .find_all('tr')[1:]
-        )
+        try:
+            rows = (
+                BeautifulSoup(html, 'html.parser')
+                .find('table', attrs={'class': 'horizontal-table'})
+                .find_all('tr')[1:]
+            )
+        except AttributeError:
+            if relogin:
+                raise
+            else:
+                return self.parse_kills(relogin=True)
         
         def parse_row(row):
             cells = row.find_all('td')
